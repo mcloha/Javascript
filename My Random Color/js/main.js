@@ -7,7 +7,7 @@ $(function() {
     function setBackground() {
       var bgColor = getColor();
       $('body').css('background', bgColor);
-      var x = getColor();
+      var x = bgColor;
       $('#color').text(x); 
     }
     
